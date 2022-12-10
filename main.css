@@ -15,7 +15,7 @@ body {
 }
 
 header{
-    background-color: rgba(92, 88, 88, 0.5);
+    background-color: rgba(139, 143, 109, 0.5);
     height: 7vh;
 }
 .header__logo {
@@ -40,7 +40,7 @@ li {
 }
 a {
     font-size: 1.5rem;
-    color: orange;
+    color: rgb(248, 247, 246);
 }
 
 main {
@@ -60,8 +60,11 @@ main {
     position: relative;
     height: 15vh;
     margin: 1rem;
-    background-color:  rgba(247, 242, 242, 0.5);
+    background-color:   rgba(255, 255, 255, 0.5);
     border-radius: 2rem;
+    color: rebeccapurple;
+    text-align: center;
+    
 }
 section {
     position: absolute;
@@ -69,7 +72,7 @@ section {
     left: 21vw;
     width: 76vw;
     padding: 2rem;
-    background-color:  rgba(139, 143, 109, 0.5);
+    background-color:   rgba(139, 143, 109, 0.5);
     margin: 1rem;
     border-radius: 2rem;
 }
@@ -94,6 +97,6 @@ footer {
     width: 97vw;
     margin: 2rem;
     padding: 1rem;
-    background-color:  rgb(116, 236, 240);
+    background-color:  rgb(166, 244, 247);
     border-radius: 1rem;
 }
