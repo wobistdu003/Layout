@@ -6,3 +6,94 @@
 html{
     font-size: 62.5%;
 }
+
+body {
+    font-size: 1.6rem;
+    background-image: url(./imagenes/pexels-rafael-cosquiere-2041540.jpg);
+    background-size: cover;
+    
+}
+
+header{
+    background-color: rgba(92, 88, 88, 0.5);
+    height: 7vh;
+}
+.header__logo {
+    display: inline-block;
+    margin: 1rem;
+    max-height: 1px;
+       
+}
+.nav {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+}
+.nav__list {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    
+}
+a {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+main {
+    height: 80vh;
+}
+.main__aside, section {
+    display: inline-block;
+    height: 80vh;
+}
+
+.main__aside {
+    width: 20vw;
+    height: 20vh;
+    margin: 1rem;
+}
+.main__aside__div {
+    position: relative;
+    height: 15vh;
+    margin: 1rem;
+    background-color:  rgba(247, 242, 242, 0.5);
+    border-radius: 2rem;
+}
+section {
+    position: absolute;
+    height: 77vh;
+    left: 21vw;
+    width: 76vw;
+    padding: 2rem;
+    background-color:  rgba(139, 143, 109, 0.5);
+    margin: 1rem;
+    border-radius: 2rem;
+}
+h1 {
+    text-align: center;
+    height: 7vh;
+}
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+footer {
+    position: relative;
+    height: 10vh;
+    background-color:  rgba(139, 143, 109, 0.5);
+    text-align: center;
+}
+.footer__div {
+    position: absolute;
+    height: 5vh;
+    width: 97vw;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:  rgb(116, 236, 240);
+    border-radius: 1rem;
+}
