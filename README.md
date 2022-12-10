@@ -1,2 +1,2 @@
 # Layout
-creación de layout
+creación de layout ejemplo para iniciar en programación web.
